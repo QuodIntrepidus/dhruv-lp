@@ -1,17 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Rozha+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@keyframes custom-anim {
+  50% {
+    width: 0;
+    left: 100%;
+  }
+  51% {
+    left: -100%;
+  }
+  100% {
+    width: 90%;
+    left: 10%;
+  }
+}
+@keyframes custom-anim-2 {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+    transform: translate(2px, 0) rotate(-45deg);
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+@keyframes custom-anim-3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+@keyframes custom-anim-4 {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+    transform: translate(0, 2px) rotate(45deg);
+  }
+  100% {
+    opacity: 0%;
+  }
+}
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  color: white;
+  background-color: #212121;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
   font-weight: normal;
+  line-height: 3rem;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -589,6 +642,141 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
+}
+/* Extra styles */
+.scroll-cont {
+  position: absolute;
+  display: block;
+  top: 5%;
+  right: 5%;
+  transition: transform 0.5s;
+}
+.scroll-cont-2 {
+  position: absolute;
+  display: block;
+  bottom: 5%;
+  left: 5%;
+  transition: transform 0.5s;
+}
+
+.outer-cir {
+  height: 50px;
+  width: 50px;
+  background-color: none;
+  border: 1.5pt white solid;
+  border-radius: 50%;
+}
+.arrow-1 {
+  height: 15px;
+  width: 15px;
+  border: solid white;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  margin-bottom: 5px;
+  margin-left: 5px;
+  animation: custom-anim-2 2s infinite;
+  animation-delay: 0.5s;
+}
+.arrow-2 {
+  height: 15px;
+  width: 15px;
+  border: solid white;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(-45deg);
+  margin-bottom: 5px;
+  animation: custom-anim-2 2s infinite;
+}
+.arrow-3 {
+  height: 15px;
+  width: 15px;
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: block;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin-left: 16px;
+  margin-top: 5px;
+  animation: custom-anim-4 2s infinite;
+  animation-delay: 0.5s;
+}
+.arrow-4 {
+  height: 15px;
+  width: 15px;
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: block;
+  padding: 2px;
+  transform: rotate(45deg);
+  margin-left: 16px;
+  animation: custom-anim-4 2s infinite;
+}
+.scroll-cont:hover {
+  transform: scale(1.2);
+}
+.scroll-cont-2:hover {
+  transform: scale(1.2);
+}
+.hero-title {
+  font-size: 56pt;
+  font-family: "Rozha One", serif;
+  letter-spacing: 0.08em;
+  padding-left: 1em;
+  text-indent: -1em;
+  color: #454545;
+}
+.page-title {
+  font-size: 56pt;
+  font-family: "Rozha One", serif;
+  letter-spacing: 0.08em;
+  font-weight: lighter;
+}
+.under {
+  text-decoration: none;
+  position: relative;
+}
+.under:after {
+  position: absolute;
+  content: "";
+  height: 40px;
+  bottom: 8px;
+  margin: 0 auto;
+  left: 10%;
+  right: 0;
+  width: 90%;
+  background: rgba(172, 106, 255, 0.4);
+  z-index: -10;
+}
+.under:hover:after {
+  animation: custom-anim 1s 1;
+}
+.back-g {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../images/bg.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.parent-con {
+  display: inline-flex;
+}
+.container {
+  display: block;
+  padding: 60px 180px;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  scroll-snap-align: end;
 }
 @media only screen and (max-width: 480px) {
   html {
