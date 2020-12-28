@@ -662,8 +662,8 @@ pre tt:after {
   transform: rotate(-45deg);
   margin-bottom: 5px;
   margin-left: 5px;
-  animation: custom-anim-2 2s infinite;
-  animation-delay: 0.5s;
+  /* animation: custom-anim-2 2s infinite;
+  animation-delay: 0.5s; */
 }
 .arrow-2 {
   height: 15px;
@@ -674,7 +674,7 @@ pre tt:after {
   padding: 2px;
   transform: rotate(-45deg);
   margin-bottom: 5px;
-  animation: custom-anim-2 2s infinite;
+  /* animation: custom-anim-2 2s infinite; */
 }
 .arrow-3 {
   height: 15px;
@@ -686,8 +686,8 @@ pre tt:after {
   margin-left: 24px;
   margin-top: 16px;
   transform: rotate(135deg);
-  animation: custom-anim-3 2s infinite;
-  animation-delay: 0.5s;
+  /* animation: custom-anim-3 2s infinite;
+  animation-delay: 0.5s; */
 }
 .arrow-4 {
   height: 15px;
@@ -699,7 +699,7 @@ pre tt:after {
   transform: rotate(135deg);
   margin-left: 9px;
   margin-top: -15px;
-  animation: custom-anim-3 2s infinite;
+  /* animation: custom-anim-3 2s infinite; */
 }
 .outer-cir:hover {
   transform: scale(1.2);

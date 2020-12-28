@@ -6,6 +6,10 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Fade from "react-reveal/Fade"
 import HorizontalScroll from "react-scroll-horizontal"
+import Image2 from "../components/image2"
+import Image3 from "../components/image3"
+
+
 
 const IndexPage = () => (
   <Layout>
@@ -31,9 +35,6 @@ const IndexPage = () => (
             style={{ marginLeft: "3%", fontSize: "1.2rem", color: "black" }}
           >
             Coder ▪︎ Web designer ▪ Author︎<br></br>
-            <span className="resp-remove" style={{ fontSize: "1rem" }}>
-              (Use arrow keys to navigate)
-            </span>
           </p>
         </Fade>
         {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
@@ -61,16 +62,11 @@ const IndexPage = () => (
           About Me
         </h1>
         <p>
-          My name is Dhruv Bhatia. I am a 17 year old web developer and a data
-          scientist aspirant. Currently, I am the COO of Shimasu which powers
-          Dusk Studios, a web design and development agency. I love to code in
-          different programming languages and learn new and upcoming languages
-          to enhance myself and my skills. I am also interested in Machine
-          Learning, especially fields like NLP and Computer Vision.
+          I am a self-taught web developer, an aspiring ML engineer, an amateur web designer and a coding enthusiast. My passion for coding stems from my early childhood obsession to solve problems till one arrives at an answer and I believe coding is nothing else but identifying problems that exist around us and using the power of tech to solve them. I try to learn multiple languages but I try to improve myself in one language before I jump onto another because a jack of all trades is a master of none. In my free time, I love to write fiction and poetry and cook food. 
         </p>
       </div>
       <div className="container">
-        <Link to="#anchor-3">
+        <Link to="#skills">
           <div className="scroll-cont">
             <div className="outer-cir">
               <div className="arrow-1"></div>
@@ -102,19 +98,19 @@ const IndexPage = () => (
               <div className="carousel-img">
                 <Image />
               </div>
-              <span>Project 1</span>
+              <span>(c)lub (c)ypher</span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image />
+                <Image2 />
               </div>
-              <span>Project 2</span>
+              <span>Shimasu</span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image />
+                <Image3 />
               </div>
-              <span>Project 3</span>
+              <span>Auxin</span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
@@ -139,23 +135,20 @@ const IndexPage = () => (
       </div>
       <div className="container">
         <Link to="#anchor-3">
-          <div className="scroll-cont">
-            <div className="outer-cir">
-              <div className="arrow-1"></div>
-              <div className="arrow-2"></div>
-            </div>
+        <div className="scroll-cont-2">
+          <div className="outer-cir">
+            <Link to="#work-ex">
+              <div className="arrow-3"></div>
+              <div className="arrow-4"></div>
+            </Link>
           </div>
+        </div>
         </Link>
-        <h1 id="anchor-3" className="page-title">
-          About Me
+        <h1 id="skills" className="page-title">
+          Skills
         </h1>
         <p>
-          My name is Dhruv Bhatia. I am a 17 year old web developer and a data
-          scientist aspirant. Currently, I am the COO of Shimasu which powers
-          Dusk Studios, a web design and development agency. I love to code in
-          different programming languages and learn new and upcoming languages
-          to enhance myself and my skills. I am also interested in Machine
-          Learning, especially fields like NLP and Computer Vision.
+          .
         </p>
       </div>
     </div>
