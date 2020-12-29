@@ -132,6 +132,44 @@ const IndexPage = () => (
             </div>
           </HorizontalScroll>
         </div>
+        <div className="mob-carousel">
+        <div className="carousel-box">
+              <div className="carousel-img">
+                <Image />
+              </div>
+              <span>(c)lub (c)ypher</span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+                <Image2 />
+              </div>
+              <span>Shimasu</span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+                <Image3 />
+              </div>
+              <span>Auxin</span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+                <Image />
+              </div>
+              <span>Project 4</span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+                <Image />
+              </div>
+              <span>Project 5</span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+                <Image />
+              </div>
+              <span>Project 6</span>
+            </div>
+          </div>
       </div>
       <div className="container">
         <Link to="#anchor-3">
@@ -147,9 +185,46 @@ const IndexPage = () => (
         <h1 id="skills" className="page-title">
           Skills
         </h1>
-        <p>
-          .
-        </p>
+        <div className="grid-container">
+          <div className="grid-box">
+          <div className="grid-img">
+                <Image
+                  src="/css3.png" 
+                />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box">
+          <div className="grid-img">
+                <Image />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box">
+          <div className="grid-img">
+                <Image />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box">
+          <div className="grid-img">
+                <Image />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box">
+          <div className="grid-img">
+                <Image />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box">
+          <div className="grid-img">
+                <Image />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+        </div>
       </div>
     </div>
   </Layout>
