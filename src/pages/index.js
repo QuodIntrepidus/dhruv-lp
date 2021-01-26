@@ -8,6 +8,22 @@ import Fade from "react-reveal/Fade"
 import HorizontalScroll from "react-scroll-horizontal"
 import Image2 from "../components/image2"
 import Image3 from "../components/image3"
+import Skill1 from "../components/Skills/Skill1"
+import Skill2 from "../components/Skills/Skill2"
+import Skill3 from "../components/Skills/Skill3"
+import Skill4 from "../components/Skills/Skill4"
+import Skill5 from "../components/Skills/Skill5"
+import Skill6 from "../components/Skills/Skill6"
+import Skill7 from "../components/Skills/Skill7"
+import Skill8 from "../components/Skills/Skill8"
+import Skill9 from "../components/Skills/Skill9"
+import Skill10 from "../components/Skills/Skill10"
+import Skill11 from "../components/Skills/Skill11"
+import Skill12 from "../components/Skills/Skill12"
+import Skill13 from "../components/Skills/Skill13"
+import Skill14 from "../components/Skills/Skill14"
+
+
 
 
 
@@ -186,41 +202,87 @@ const IndexPage = () => (
           Skills
         </h1>
         <div className="grid-container">
-          <div className="grid-box">
+          <div className="grid-box" id="s1">
           <div className="grid-img">
-                <Image
-                  src="/css3.png" 
-                />
+                <Skill1 />
               </div>
               <span>(c)lub (c)ypher</span>
           </div>
-          <div className="grid-box">
+          <div className="grid-box" id="s2">
           <div className="grid-img">
-                <Image />
+          <Skill2 />
               </div>
               <span>(c)lub (c)ypher</span>
           </div>
-          <div className="grid-box">
+          <div className="grid-box" id="s3">
           <div className="grid-img">
-                <Image />
+                <Skill3 />
               </div>
               <span>(c)lub (c)ypher</span>
           </div>
-          <div className="grid-box">
+          <div className="grid-box" id="s4">
           <div className="grid-img">
-                <Image />
+                <Skill4 />
               </div>
               <span>(c)lub (c)ypher</span>
           </div>
-          <div className="grid-box">
+          <div className="grid-box" id="s5">
           <div className="grid-img">
-                <Image />
+                <Skill5 />
               </div>
               <span>(c)lub (c)ypher</span>
           </div>
-          <div className="grid-box">
+          <div className="grid-box" id="s6">
           <div className="grid-img">
-                <Image />
+                <Skill6 />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box" id="s7">
+          <div className="grid-img">
+                <Skill7 />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box" id="s8">
+          <div className="grid-img">
+                <Skill8 />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box" id="s9">
+          <div className="grid-img">
+                <Skill9 />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box" id="s10">
+          <div className="grid-img">
+                <Skill10 />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box" id="s11">
+          <div className="grid-img">
+                <Skill11 />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box" id="s12">
+          <div className="grid-img">
+                <Skill12 />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box" id="s13">
+          <div className="grid-img">
+                <Skill13 />
+              </div>
+              <span>(c)lub (c)ypher</span>
+          </div>
+          <div className="grid-box" id="s14">
+          <div className="grid-img">
+                <Skill14 />
               </div>
               <span>(c)lub (c)ypher</span>
           </div>
@@ -229,5 +291,4 @@ const IndexPage = () => (
     </div>
   </Layout>
 )
-
 export default IndexPage
