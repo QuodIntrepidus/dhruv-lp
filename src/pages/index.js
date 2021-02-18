@@ -8,6 +8,7 @@ import Fade from "react-reveal/Fade"
 import HorizontalScroll from "react-scroll-horizontal"
 import Image2 from "../components/image2"
 import Image3 from "../components/image3"
+import Image4 from "../components/image4"
 import Skill1 from "../components/Skills/Skill1"
 import Skill2 from "../components/Skills/Skill2"
 import Skill3 from "../components/Skills/Skill3"
@@ -48,7 +49,7 @@ const IndexPage = () => (
           </h1>
           <p
             className="resp-remove"
-            style={{ marginLeft: "3%", fontSize: "1.2rem", color: "black" }}
+            style={{ marginLeft: "3%", fontSize: "1.2rem", color: "black", fontWeight: "bold" }}
           >
             Coder ▪︎ Web designer ▪ Author︎<br></br>
           </p>
@@ -114,37 +115,43 @@ const IndexPage = () => (
               <div className="carousel-img">
                 <Image />
               </div>
-              <span>(c)lub (c)ypher</span>
+              <span><Link to="http://club-cypher.herokuapp.com" target="_blank">(c)lub (c)ypher</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
                 <Image2 />
               </div>
-              <span>Shimasu</span>
+              <span><Link to="http://shimasu-landing.herokuapp.com" target="_blank">Shimasu</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
                 <Image3 />
               </div>
-              <span>Auxin</span>
+              <span><Link to="https://getauxin.com" target="_blank">Auxin</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+                <Image4 />
+              </div>
+              <span><Link to="https://www.halocrypt.com" target="_blank">Halocrypt</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
                 <Image />
               </div>
-              <span>Project 4</span>
+              <span><Link to="https://www.halocrypt.com" target="_blank">Scyara MegaCorp</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
                 <Image />
               </div>
-              <span>Project 5</span>
+              <span><Link to="https://www.halocrypt.com" target="_blank">Agriyaan</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
                 <Image />
               </div>
-              <span>Project 6</span>
+              <span><Link to="https://www.halocrypt.com" target="_blank">Jennerus BioCorp</Link></span>
             </div>
           </HorizontalScroll>
         </div>

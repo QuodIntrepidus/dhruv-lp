@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rozha+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@font-face {
+  font-family: "Penna";
+  src: url("../penna.otf");
+}
 @keyframes custom-anim {
   50% {
     width: 0;
@@ -53,7 +58,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: rgb(221, 221, 221);
   background-color: #212121;
-  font-family: "Raleway", sans-serif;
+  font-family: "Comfortaa", cursive;
   font-size: 1.5rem;
   font-weight: normal;
   line-height: 3rem;
@@ -96,6 +101,8 @@ template {
   display: none;
 }
 a {
+  color: inherit;
+  text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -636,6 +643,15 @@ pre tt:after {
   content: "";
 }
 /* Extra styles */
+::-webkit-scrollbar {
+  height: 4.5px;
+}
+::-webkit-scrollbar-track {
+  background: #212121;
+}
+::-webkit-scrollbar-thumb {
+  background: #80cbc4;
+}
 .scroll-cont {
   float: right;
   margin-left: 1em;
@@ -714,9 +730,9 @@ pre tt:after {
 }
 .page-title {
   font-size: 56pt;
-  font-family: "Rozha One", serif;
+  font-family: "Penna";
   letter-spacing: 0.08em;
-  font-weight: lighter;
+  font-weight: bolder;
   color: #80cbc4;
   margin-bottom: 1em;
 }
