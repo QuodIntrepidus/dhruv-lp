@@ -647,10 +647,60 @@ pre tt:after {
   height: 4.5px;
 }
 ::-webkit-scrollbar-track {
-  background: #212121;
+  background: rgb(33, 33, 33);
 }
 ::-webkit-scrollbar-thumb {
   background: #80cbc4;
+}
+mark {
+  background: rgba(255,255,255,0);
+  color: rgb(221, 221, 221);
+  transition: 0.4s ease;
+}
+mark:hover {
+  background: rgb(201, 61, 37);
+  padding: 0.5px;
+}
+.uni-blue {
+  background: rgba(255,255,255,0);
+  color: rgb(221, 221, 221);
+  transition: 0.4s ease;
+  text-decoration: underline;
+}
+
+.uni-blue:hover {
+  background: rgb(0, 12, 122);
+  padding: 4px;
+}
+.uni-white {
+  background: rgba(255,255,255,0);
+  color: rgb(221, 221, 221);
+  transition: 0.4s ease;
+}
+
+.uni-white:hover {
+  background: rgb(255, 255, 255);
+  padding: 2px;
+}
+.uni-red {
+  background: rgba(255,255,255,0);
+  color: rgb(221, 221, 221);
+  transition: 0.4s ease;
+}
+
+.uni-red:hover {
+  background: rgb(223, 0, 0);
+  padding: 0px;
+}
+.info {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.portrait {
+  margin-top: -10%;
+  float: right;
+  width: 100%;
 }
 .scroll-cont {
   float: right;
@@ -986,6 +1036,14 @@ pre tt:after {
     margin: 10px 30px;
     background-color: #212121;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.479);
+  }
+  .info {
+    display: block;
+  }
+  .portrait {
+    margin-left: 25%;
+    width: 50%;
+    float: none;
   }
 }
 

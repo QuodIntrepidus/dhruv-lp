@@ -9,6 +9,10 @@ import HorizontalScroll from "react-scroll-horizontal"
 import Image2 from "../components/image2"
 import Image3 from "../components/image3"
 import Image4 from "../components/image4"
+import Image5 from "../components/image5"
+import Image6 from "../components/image6"
+import Image7 from "../components/image7"
+import Image8 from "../components/image8"
 import Skill1 from "../components/Skills/Skill1"
 import Skill2 from "../components/Skills/Skill2"
 import Skill3 from "../components/Skills/Skill3"
@@ -31,7 +35,7 @@ import Skill14 from "../components/Skills/Skill14"
 const IndexPage = () => (
   <Layout>
     <div className="parent-con">
-      <div className="container">
+      <div className="container" id="home">
         <SEO title="Home" />
         <div className="back-g resp-remove"></div>
         <Link to="#about">
@@ -43,7 +47,7 @@ const IndexPage = () => (
           </div>
         </Link>
         <Fade bottom cascade>
-          <h1 className="hero-title" id="home">
+          <h1 className="hero-title">
             <span className="under">Dhruv</span> <br />{" "}
             <span className="under">Bhatia</span>
           </h1>
@@ -58,7 +62,7 @@ const IndexPage = () => (
       <Image />
 </div>*/}
       </div>
-      <div className="container">
+      <div className="container" id="about">
         <Link to="#work-ex">
           <div className="scroll-cont">
             <div className="outer-cir">
@@ -75,14 +79,21 @@ const IndexPage = () => (
             </Link>
           </div>
         </div>
-        <h1 className="page-title" id="about">
+        <h1 className="page-title">
           About Me
         </h1>
-        <p>
-          I am a self-taught web developer, an aspiring ML engineer, an amateur web designer and a coding enthusiast. My passion for coding stems from my early childhood obsession to solve problems till one arrives at an answer and I believe coding is nothing else but identifying problems that exist around us and using the power of tech to solve them. I try to learn multiple languages but I try to improve myself in one language before I jump onto another because a jack of all trades is a master of none. In my free time, I love to write fiction and poetry and cook food. 
+        <div className="info">
+        <p style={{marginRight: "2em", marginBottom: "1em"}}>
+          I am a <mark>self-taught web developer</mark>, <mark>an aspiring author</mark>, <mark>an amateur web designer</mark>, <mark>an imaginative poet</mark> and a <mark>coding enthusiast</mark>. I am currently a freshman at <mark class="uni-blue"><mark class="uni-white"><mark class="uni-red">University of Arizona</mark></mark></mark> and am pursuing my bachelor's degree.  
+        <br></br><br></br>
+        
         </p>
+        <div className="portrait">
+        <Image5 />
+        </div>
+        </div>
       </div>
-      <div className="container">
+      <div className="container" id="work-ex">
         <Link to="#skills">
           <div className="scroll-cont">
             <div className="outer-cir">
@@ -99,7 +110,7 @@ const IndexPage = () => (
             </Link>
           </div>
         </div>
-        <h1 id="work-ex" className="page-title">
+        <h1 className="page-title">
           Work Experience
         </h1>
         <div className="carousel-cont">
@@ -137,19 +148,19 @@ const IndexPage = () => (
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image />
+                <Image6 />
               </div>
               <span><Link to="https://www.halocrypt.com" target="_blank">Scyara MegaCorp</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image />
+                <Image7 />
               </div>
               <span><Link to="https://www.halocrypt.com" target="_blank">Agriyaan</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image />
+                <Image8 />
               </div>
               <span><Link to="https://www.halocrypt.com" target="_blank">Jennerus BioCorp</Link></span>
             </div>
@@ -194,7 +205,7 @@ const IndexPage = () => (
             </div>
           </div>
       </div>
-      <div className="container">
+      <div className="container" id="skills">
         <Link to="#anchor-3">
         <div className="scroll-cont-2">
           <div className="outer-cir">
@@ -205,7 +216,7 @@ const IndexPage = () => (
           </div>
         </div>
         </Link>
-        <h1 id="skills" className="page-title">
+        <h1 className="page-title">
           Skills
         </h1>
         <div className="grid-container">
@@ -299,3 +310,7 @@ const IndexPage = () => (
   </Layout>
 )
 export default IndexPage
+// TODO List
+// Add Cool Projects and showcase them
+// Add writing and poetry
+// Add Contact Page
