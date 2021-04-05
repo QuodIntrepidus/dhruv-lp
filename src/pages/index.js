@@ -79,6 +79,15 @@ const IndexPage = () => (
             </Link>
           </div>
         </div>
+        <div className="lines resp-remove">
+  <div className="line resp-remove"></div>
+  <div className="line resp-remove"></div>
+  <div className="line resp-remove"></div>
+  <div className="line resp-remove"></div>
+  <div className="line resp-remove"></div>
+  <div className="line resp-remove"></div>
+  <div className="line resp-remove"></div>
+</div>
         <h1 className="page-title">
           About Me
         </h1>
@@ -118,7 +127,7 @@ const IndexPage = () => (
             // pageLock={true}
             reverseScroll={true}
             style={{ height: `80%` }}
-            config={{ stiffness: 3, damping: 4 }}
+            config={{ stiffness: 2, damping: 2 }}
             // className={`carousel-box`}
             // animValues    = { int }
           >
@@ -144,7 +153,7 @@ const IndexPage = () => (
               <div className="carousel-img">
                 <Image4 />
               </div>
-              <span><Link to="https://www.halocrypt.com" target="_blank">Halocrypt</Link></span>
+              <span><Link to="https://halocrypt-20.herokuapp.com/" target="_blank">Halocrypt</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
@@ -171,42 +180,55 @@ const IndexPage = () => (
               <div className="carousel-img">
                 <Image />
               </div>
-              <span>(c)lub (c)ypher</span>
+              <span><Link to="http://club-cypher.herokuapp.com" target="_blank">(c)lub (c)ypher</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
                 <Image2 />
               </div>
-              <span>Shimasu</span>
+              <span><Link to="http://shimasu-landing.herokuapp.com" target="_blank">Shimasu</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
                 <Image3 />
               </div>
-              <span>Auxin</span>
+              <span><Link to="https://getauxin.com" target="_blank">Auxin</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image />
+                <Image4 />
               </div>
-              <span>Project 4</span>
+              <span><Link to="https://halocrypt-20.herokuapp.com/" target="_blank">Halocrypt</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image />
+                <Image6 />
               </div>
-              <span>Project 5</span>
+              <span><Link to="https://www.halocrypt.com" target="_blank">Scyara MegaCorp</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image />
+                <Image7 />
               </div>
-              <span>Project 6</span>
+              <span><Link to="https://www.halocrypt.com" target="_blank">Agriyaan</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+                <Image8 />
+              </div>
+              <span><Link to="https://www.halocrypt.com" target="_blank">Jennerus BioCorp</Link></span>
             </div>
           </div>
       </div>
       <div className="container" id="skills">
-        <Link to="#anchor-3">
+      <Link to="#writing">
+          <div className="scroll-cont">
+            <div className="outer-cir">
+              <div className="arrow-1"></div>
+              <div className="arrow-2"></div>
+            </div>
+          </div>
+        </Link>
         <div className="scroll-cont-2">
           <div className="outer-cir">
             <Link to="#work-ex">
@@ -215,7 +237,6 @@ const IndexPage = () => (
             </Link>
           </div>
         </div>
-        </Link>
         <h1 className="page-title">
           Skills
         </h1>
@@ -224,87 +245,102 @@ const IndexPage = () => (
           <div className="grid-img">
                 <Skill1 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s2">
           <div className="grid-img">
           <Skill2 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s3">
           <div className="grid-img">
                 <Skill3 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s4">
           <div className="grid-img">
                 <Skill4 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s5">
           <div className="grid-img">
                 <Skill5 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s6">
           <div className="grid-img">
                 <Skill6 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s7">
           <div className="grid-img">
                 <Skill7 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s8">
           <div className="grid-img">
                 <Skill8 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s9">
           <div className="grid-img">
                 <Skill9 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s10">
           <div className="grid-img">
                 <Skill10 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s11">
           <div className="grid-img">
                 <Skill11 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s12">
           <div className="grid-img">
                 <Skill12 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s13">
           <div className="grid-img">
                 <Skill13 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
           <div className="grid-box" id="s14">
           <div className="grid-img">
                 <Skill14 />
               </div>
-              <span>(c)lub (c)ypher</span>
           </div>
         </div>
+      </div>
+      <div className="container" id="writing">
+        <Link to="#anchor-3">
+        <div className="scroll-cont-2">
+          <div className="outer-cir">
+            <Link to="#skills">
+              <div className="arrow-3"></div>
+              <div className="arrow-4"></div>
+            </Link>
+          </div>
+        </div>
+        </Link>
+        <h1 className="page-title">
+          Writing
+        </h1>
+        {/* <div className="writing-container">
+          <div className="writing-box">
+            Prose
+            <div className="more-info">
+              
+            </div>
+          </div>
+          <div className="writing-box">
+            Poetry
+            <div className="more-info">
+              
+            </div>
+          </div>
+          </div> */}
       </div>
     </div>
   </Layout>
