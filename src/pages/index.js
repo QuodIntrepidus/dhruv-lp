@@ -93,7 +93,7 @@ const IndexPage = () => (
         </h1>
         <div className="info">
         <p style={{marginRight: "2em", marginBottom: "1em"}}>
-          I am a <mark>self-taught web developer</mark>, <mark>an aspiring author</mark>, <mark>an amateur web designer</mark>, <mark>an imaginative poet</mark> and a <mark>coding enthusiast</mark>. I am currently a freshman at <mark class="uni-blue"><mark class="uni-white"><mark class="uni-red">University of Arizona</mark></mark></mark> and am pursuing my bachelor's degree.  
+          I am a <mark>self-taught web developer</mark>, <mark>an aspiring author</mark>, <mark>an amateur web designer</mark>, <mark>an imaginative poet</mark> and a <mark>coding enthusiast</mark>. I am currently a sophomore at <mark class="uni-blue"><mark class="uni-white"><mark class="uni-red">University of Arizona</mark></mark></mark> and am pursuing my bachelor's degree.  
         <br></br><br></br>
         
         </p>
@@ -190,12 +190,6 @@ const IndexPage = () => (
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image3 />
-              </div>
-              <span><Link to="https://getauxin.com" target="_blank">Auxin</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
                 <Image4 />
               </div>
               <span><Link to="https://halocrypt-20.herokuapp.com/" target="_blank">Halocrypt</Link></span>
@@ -204,19 +198,19 @@ const IndexPage = () => (
               <div className="carousel-img">
                 <Image6 />
               </div>
-              <span><Link to="https://www.halocrypt.com" target="_blank">Scyara MegaCorp</Link></span>
+              <span><Link to="http://scyara.herokuapp.com/" target="_blank">Scyara MegaCorp</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
                 <Image7 />
               </div>
-              <span><Link to="https://www.halocrypt.com" target="_blank">Agriyaan</Link></span>
+              <span><Link to="http://agriyaan.herokuapp.com/" target="_blank">Agriyaan</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
                 <Image8 />
               </div>
-              <span><Link to="https://www.halocrypt.com" target="_blank">Jennerus BioCorp</Link></span>
+              <span><Link to="https://www.jennerus.co.in/" target="_blank">Jennerus BioCorp</Link></span>
             </div>
           </div>
       </div>
@@ -327,20 +321,14 @@ const IndexPage = () => (
         <h1 className="page-title">
           Writing
         </h1>
-        {/* <div className="writing-container">
+        <div className="writing-container">
           <div className="writing-box">
-            Prose
-            <div className="more-info">
-              
-            </div>
+          <span><Link to="https://www.honeyfeed.fm/u/3211" target="_blank">Prose</Link></span>
           </div>
           <div className="writing-box">
-            Poetry
-            <div className="more-info">
-              
-            </div>
+          <span><Link to="https://www.poetbay.com/poetHome.php?writerId=6317" target="_blank">Poetry</Link></span>
           </div>
-          </div> */}
+          </div>
       </div>
     </div>
   </Layout>

@@ -1015,7 +1015,7 @@ mark:hover {
 }
 .writing-container {
   display: inline;
-  background-color: black;
+  /* background-color: black; */
   align-items: center;
   justify-content: center;
 }
@@ -1023,11 +1023,11 @@ mark:hover {
   display: block;
   text-align: center;
   width: 10em;
-  height: 10em;
+  height: 2em;
   background-color: rgba(133, 133, 133, 0.527);
   box-shadow: rgba(0, 0, 0, 0.836) 5px 5px 20px;
   z-index: 10;
-  transition: all 2s ease;
+  transition: all ease 1s;
 }
 .writing-box span {
   margin-top: 50%;
@@ -1039,7 +1039,10 @@ mark:hover {
   float: right;
   margin-right: 10%;
 }
-.more-info {
+.writing-box:hover {
+  transform: scale(1.08);
+}
+/* .more-info {
   display: block;
   align-items: center;
   justify-content: center;
@@ -1052,15 +1055,15 @@ mark:hover {
   color: rgba(0, 0, 0, 0);
   z-index: -10;
   transition: all 1s ease;
-}
-.writing-box:hover > .more-info {
+} */
+/* .writing-box:hover > .more-info {
   visibility: visible;
   margin-left: 10em;
   background-color: rgb(155, 155, 155);
   color: inherit;
   /* box-shadow: rgba(0, 0, 0, 0.836) 1px 1px 20px; */
-  transition: all 1s ease;
-}
+/* transition: all 1s ease; */
+/* } */
 .back-g {
   position: absolute;
   top: 0;
@@ -1098,12 +1101,32 @@ mark:hover {
     scroll-snap-type: x mandatory;
     text-align: center;
   }
+  .writing-container {
+    display: flex;
+    flex: 0 0 auto;
+    padding: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .writing-box {
+    display: block;
+    text-align: center;
+    margin: 1em;
+    width: 10em;
+    height: 2em;
+    background-color: rgba(133, 133, 133, 0.527);
+    box-shadow: rgba(0, 0, 0, 0.836) 5px 5px 20px;
+    z-index: 10;
+    float: none;
+    transition: all ease 1s;
+  }
   .grid-img {
     width: 100%;
     /* margin: 2px; */
   }
   .grid-container {
-    height: 40vh;
+    height: 60vh;
     flex: 0 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 80px);
@@ -1229,6 +1252,9 @@ mark:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   html {
     font-size: 90%;
+  }
+  .grid-container {
+    height: 43vh;
   }
   .hero-title {
     font-size: 56pt;
