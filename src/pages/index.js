@@ -145,12 +145,6 @@ const IndexPage = () => (
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image3 />
-              </div>
-              <span><Link to="https://getauxin.com" target="_blank">Auxin</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
                 <Image4 />
               </div>
               <span><Link to="https://halocrypt-20.herokuapp.com/" target="_blank">Halocrypt</Link></span>
@@ -159,19 +153,19 @@ const IndexPage = () => (
               <div className="carousel-img">
                 <Image6 />
               </div>
-              <span><Link to="https://www.halocrypt.com" target="_blank">Scyara MegaCorp</Link></span>
+              <span><Link to="http://scyara.herokuapp.com/" target="_blank">Scyara MegaCorp</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
                 <Image7 />
               </div>
-              <span><Link to="https://www.halocrypt.com" target="_blank">Agriyaan</Link></span>
+              <span><Link to="http://agriyaan.herokuapp.com/" target="_blank">Agriyaan</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
                 <Image8 />
               </div>
-              <span><Link to="https://www.halocrypt.com" target="_blank">Jennerus BioCorp</Link></span>
+              <span><Link to="https://www.jennerus.co.in/" target="_blank">Jennerus BioCorp</Link></span>
             </div>
           </HorizontalScroll>
         </div>
