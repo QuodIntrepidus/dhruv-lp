@@ -165,7 +165,7 @@ const IndexPage = () => (
               <div className="carousel-img">
                 <Image8 />
               </div>
-              <span><Link to="https://www.jennerus.co.in/" target="_blank">Jennerus BioCorp</Link></span>
+              <span><Link to="https://jennerus.netlify.app/" target="_blank">Jennerus BioCorp</Link></span>
             </div>
           </HorizontalScroll>
         </div>
