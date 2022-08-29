@@ -16,6 +16,7 @@ import Image8 from "../components/image8"
 import Image9 from "../components/image9"
 import Image10 from "../components/image10"
 import Image11 from "../components/image11"
+import Image12 from "../components/image12"
 import Skill1 from "../components/Skills/Skill1"
 import Skill2 from "../components/Skills/Skill2"
 import Skill3 from "../components/Skills/Skill3"
@@ -96,7 +97,7 @@ const IndexPage = () => (
         </h1>
         <div className="info">
         <p style={{marginRight: "2em", marginBottom: "1em"}}>
-          I am a <mark>self-taught web developer</mark>, <mark>an aspiring author</mark>, <mark>an amateur web designer</mark>, <mark>an imaginative poet</mark> and a <mark>coding enthusiast</mark>. I am currently a sophomore at <mark class="uni-blue"><mark class="uni-white"><mark class="uni-red">University of Arizona</mark></mark></mark> and am pursuing my bachelor's degree.  
+          I am a <mark>self-taught web developer</mark>, <mark>an aspiring author</mark>, <mark>an amateur web designer</mark>, <mark>an imaginative poet</mark> and a <mark>coding enthusiast</mark>. I am currently a junior at <mark class="uni-blue"><mark class="uni-white"><mark class="uni-red">University of Arizona</mark></mark></mark> and am pursuing my bachelor's degree.  
         <br></br><br></br>
         
         </p>
@@ -130,94 +131,122 @@ const IndexPage = () => (
             // pageLock={true}
             reverseScroll={true}
             style={{ height: `80%` }}
-            config={{ stiffness: 2, damping: 2 }}
+            config={{ stiffness: 1.8, damping: 1.8 }}
             // className={`carousel-box`}
             // animValues    = { int }
           >
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image />
-              </div>
-              <span><Link to="https://www.clubcypher.club/home" target="_blank">(c)lub (c)ypher</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
-                <Image2 />
-              </div>
-              <span><Link to="http://shimasu-landing.herokuapp.com" target="_blank">Shimasu</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
-                <Image10 />
-              </div>
-              <span><Link to="https://confluencenter.arizona.edu/" target="_blank">Confluencenter</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
-                <Image11 />
-              </div>
-              <span><Link to="https://underthestars.netlify.app/" target="_blank">Under The Stars</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
-                <Image9 />
-              </div>
-              <span><Link to="https://www.figma.com/file/LY1iai4Rv32WN8708IIdr1/Fei's-Website-(Copy)?node-id=0%3A1" target="_blank">Caladria (Design)</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
-                <Image4 />
-              </div>
-              <span><Link to="https://halocrypt-20.herokuapp.com/" target="_blank">Halocrypt</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
+                <Link to="http://scyara.herokuapp.com/" target="_blank">
                 <Image6 />
+                </Link>
               </div>
               <span><Link to="http://scyara.herokuapp.com/" target="_blank">Scyara MegaCorp</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image7 />
+              <Link to="https://jennerus.netlify.app/" target="_blank">
+                <Image8 />
+                </Link>
               </div>
-              <span><Link to="http://agriyaan.herokuapp.com/" target="_blank">Agriyaan</Link></span>
+              <span><Link to="https://jennerus.netlify.app/" target="_blank">Jennerus BioCorp</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image8 />
+              <Link to="https://www.figma.com/proto/KritlVd8yBhkYUBrdNWnoH/Food-Delivery-App-WireFrame?scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A3&node-id=3%3A3" target="_blank">
+                <Image12 />
+                </Link>
               </div>
-              <span><Link to="https://jennerus.netlify.app/" target="_blank">Jennerus BioCorp</Link></span>
+              <span><Link to="https://www.figma.com/proto/KritlVd8yBhkYUBrdNWnoH/Food-Delivery-App-WireFrame?scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A3&node-id=3%3A3" target="_blank">Delivery App (WF)</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+              <Link to="https://confluencenter.arizona.edu/" target="_blank">
+                <Image10 />
+                </Link>
+              </div>
+              <span><Link to="https://confluencenter.arizona.edu/" target="_blank">Confluencenter</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+              <Link to="https://underthestars.netlify.app/" target="_blank">
+                <Image11 />
+                </Link>
+              </div>
+              <span><Link to="https://underthestars.netlify.app/" target="_blank">Under The Stars</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+              <Link to="https://www.figma.com/file/LY1iai4Rv32WN8708IIdr1/Fei's-Website-(Copy)?node-id=0%3A1" target="_blank">
+                <Image9 />
+                </Link>
+              </div>
+              <span><Link to="https://www.figma.com/file/LY1iai4Rv32WN8708IIdr1/Fei's-Website-(Copy)?node-id=0%3A1" target="_blank">Caladria (Design)</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+              <Link to="https://halocrypt-20.herokuapp.com/" target="_blank">
+                <Image4 />
+                </Link>
+              </div>
+              <span><Link to="https://halocrypt-20.herokuapp.com/" target="_blank">Halocrypt</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+              <Link to="http://shimasu-landing.herokuapp.com" target="_blank">
+                <Image2 />
+                </Link>
+              </div>
+              <span><Link to="http://shimasu-landing.herokuapp.com" target="_blank">Shimasu</Link></span>
             </div>
           </HorizontalScroll>
         </div>
         <div className="mob-carousel">
         <div className="carousel-box">
               <div className="carousel-img">
-                <Image />
+              <Link to="http://scyara.herokuapp.com/" target="_blank">
+                <Image6 />
+                </Link>
               </div>
-              <span><Link to="https://www.clubcypher.club/home" target="_blank">(c)lub (c)ypher</Link></span>
+              <span><Link to="http://scyara.herokuapp.com/" target="_blank">Scyara MegaCorp</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image2 />
+              <Link to="https://www.jennerus.co.in/" target="_blank">
+                <Image8 />
+                </Link>
               </div>
-              <span><Link to="http://shimasu-landing.herokuapp.com" target="_blank">Shimasu</Link></span>
+              <span><Link to="https://www.jennerus.co.in/" target="_blank">Jennerus BioCorp</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
+              <Link to="https://www.figma.com/file/LY1iai4Rv32WN8708IIdr1/Fei's-Website-(Copy)?node-id=0%3A1" target="_blank">
+                <Image9 />
+                </Link>
+              </div>
+              <span><Link to="https://www.figma.com/file/LY1iai4Rv32WN8708IIdr1/Fei's-Website-(Copy)?node-id=0%3A1" target="_blank">Caladria (Design)</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+              <Link to="https://confluencenter.arizona.edu/" target="_blank">
                 <Image10 />
+                </Link>
               </div>
               <span><Link to="https://confluencenter.arizona.edu/" target="_blank">Confluencenter</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
+              <Link to="https://underthestars.netlify.app/" target="_blank">
                 <Image11 />
+                </Link>
               </div>
               <span><Link to="https://underthestars.netlify.app/" target="_blank">Under The Stars</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
+              <Link to="https://www.figma.com/file/LY1iai4Rv32WN8708IIdr1/Fei's-Website-(Copy)?node-id=0%3A1" target="_blank">
                 <Image9 />
+                </Link>
               </div>
               <span><Link to="https://www.figma.com/file/LY1iai4Rv32WN8708IIdr1/Fei's-Website-(Copy)?node-id=0%3A1" target="_blank">Caladria</Link></span>
             </div>
@@ -229,21 +258,11 @@ const IndexPage = () => (
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-                <Image6 />
+              <Link to="http://shimasu-landing.herokuapp.com" target="_blank">
+                <Image2 />
+                </Link>
               </div>
-              <span><Link to="http://scyara.herokuapp.com/" target="_blank">Scyara MegaCorp</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
-                <Image7 />
-              </div>
-              <span><Link to="http://agriyaan.herokuapp.com/" target="_blank">Agriyaan</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
-                <Image8 />
-              </div>
-              <span><Link to="https://www.jennerus.co.in/" target="_blank">Jennerus BioCorp</Link></span>
+              <span><Link to="http://shimasu-landing.herokuapp.com" target="_blank">Shimasu</Link></span>
             </div>
           </div>
       </div>
