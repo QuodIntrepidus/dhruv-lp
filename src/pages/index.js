@@ -17,6 +17,7 @@ import Image9 from "../components/image9"
 import Image10 from "../components/image10"
 import Image11 from "../components/image11"
 import Image12 from "../components/image12"
+import Image13 from "../components/image13"
 import Skill1 from "../components/Skills/Skill1"
 import Skill2 from "../components/Skills/Skill2"
 import Skill3 from "../components/Skills/Skill3"
@@ -137,11 +138,11 @@ const IndexPage = () => (
           >
             <div className="carousel-box">
               <div className="carousel-img">
-                <Link to="http://scyara.herokuapp.com/" target="_blank">
+                <Link to="https://youtu.be/YAl3AzbHPwA" target="_blank">
                 <Image6 />
                 </Link>
               </div>
-              <span><Link to="http://scyara.herokuapp.com/" target="_blank">Scyara MegaCorp</Link></span>
+              <span><Link to="https://youtu.be/YAl3AzbHPwA" target="_blank">UI-React Workshop</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
@@ -149,7 +150,7 @@ const IndexPage = () => (
                 <Image8 />
                 </Link>
               </div>
-              <span><Link to="https://jennerus.netlify.app/" target="_blank">Jennerus BioCorp</Link></span>
+              <span><Link to="https://jennerus.netlify.app/" target="_blank">Jennerus Template</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
@@ -158,6 +159,14 @@ const IndexPage = () => (
                 </Link>
               </div>
               <span><Link to="https://www.figma.com/proto/KritlVd8yBhkYUBrdNWnoH/Food-Delivery-App-WireFrame?scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A3&node-id=3%3A3" target="_blank">Delivery App (WF)</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+              <Link to="https://www.figma.com/proto/1v4WIYLaZVomI96YtsiYH9/Untitled?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank">
+                <Image13 />
+                </Link>
+              </div>
+              <span><Link to="https://www.figma.com/proto/1v4WIYLaZVomI96YtsiYH9/Untitled?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank">NodeVis (WF)</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
@@ -185,11 +194,11 @@ const IndexPage = () => (
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-              <Link to="https://halocrypt-20.herokuapp.com/" target="_blank">
+              <Link to="https://halocrypt.com/" target="_blank">
                 <Image4 />
                 </Link>
               </div>
-              <span><Link to="https://halocrypt-20.herokuapp.com/" target="_blank">Halocrypt</Link></span>
+              <span><Link to="https://halocrypt.com/" target="_blank">Halocrypt</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
@@ -197,18 +206,18 @@ const IndexPage = () => (
                 <Image2 />
                 </Link>
               </div>
-              <span><Link to="http://shimasu-landing.herokuapp.com" target="_blank">Shimasu</Link></span>
+              <span><Link to="https://chrome.google.com/webstore/detail/shimasu/aopobbpejbinaakalfongpgajeokeeja?hl=en" target="_blank">Shimasu</Link></span>
             </div>
           </HorizontalScroll>
         </div>
         <div className="mob-carousel">
         <div className="carousel-box">
               <div className="carousel-img">
-              <Link to="http://scyara.herokuapp.com/" target="_blank">
+              <Link to="https://youtu.be/YAl3AzbHPwA" target="_blank">
                 <Image6 />
                 </Link>
               </div>
-              <span><Link to="http://scyara.herokuapp.com/" target="_blank">Scyara MegaCorp</Link></span>
+              <span><Link to="https://youtu.be/YAl3AzbHPwA" target="_blank">UI-React Workshop</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
@@ -216,7 +225,7 @@ const IndexPage = () => (
                 <Image8 />
                 </Link>
               </div>
-              <span><Link to="https://www.jennerus.co.in/" target="_blank">Jennerus BioCorp</Link></span>
+              <span><Link to="https://www.jennerus.co.in/" target="_blank">Jennerus Template</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
@@ -254,7 +263,7 @@ const IndexPage = () => (
               <div className="carousel-img">
                 <Image4 />
               </div>
-              <span><Link to="https://halocrypt-20.herokuapp.com/" target="_blank">Halocrypt</Link></span>
+              <span><Link to="https://halocrypt.com/" target="_blank">Halocrypt</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
@@ -262,7 +271,7 @@ const IndexPage = () => (
                 <Image2 />
                 </Link>
               </div>
-              <span><Link to="http://shimasu-landing.herokuapp.com" target="_blank">Shimasu</Link></span>
+              <span><Link to="https://chrome.google.com/webstore/detail/shimasu/aopobbpejbinaakalfongpgajeokeeja?hl=en" target="_blank">Shimasu</Link></span>
             </div>
           </div>
       </div>
