@@ -202,7 +202,7 @@ const IndexPage = () => (
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-              <Link to="http://shimasu-landing.herokuapp.com" target="_blank">
+              <Link to="https://chrome.google.com/webstore/detail/shimasu/aopobbpejbinaakalfongpgajeokeeja?hl=en" target="_blank">
                 <Image2 />
                 </Link>
               </div>
@@ -221,11 +221,11 @@ const IndexPage = () => (
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-              <Link to="https://www.jennerus.co.in/" target="_blank">
+              <Link to="https://jennerus.netlify.app/" target="_blank">
                 <Image8 />
                 </Link>
               </div>
-              <span><Link to="https://www.jennerus.co.in/" target="_blank">Jennerus Template</Link></span>
+              <span><Link to="https://jennerus.netlify.app/" target="_blank">Jennerus Template</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
@@ -267,7 +267,7 @@ const IndexPage = () => (
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-              <Link to="http://shimasu-landing.herokuapp.com" target="_blank">
+              <Link to="https://chrome.google.com/webstore/detail/shimasu/aopobbpejbinaakalfongpgajeokeeja?hl=en" target="_blank">
                 <Image2 />
                 </Link>
               </div>
