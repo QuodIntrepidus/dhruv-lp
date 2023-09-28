@@ -823,7 +823,7 @@ mark:hover {
   justify-content: center;
 }
 .portrait {
-  margin-top: -10%;
+  /* margin-top: -10%; */
   float: right;
   width: 100%;
 }

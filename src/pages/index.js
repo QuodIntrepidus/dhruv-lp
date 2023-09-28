@@ -276,14 +276,6 @@ const IndexPage = () => (
           </div>
       </div>
       <div className="container" id="skills">
-      <Link to="#writing">
-          <div className="scroll-cont">
-            <div className="outer-cir">
-              <div className="arrow-1"></div>
-              <div className="arrow-2"></div>
-            </div>
-          </div>
-        </Link>
         <div className="scroll-cont-2">
           <div className="outer-cir">
             <Link to="#work-ex">
@@ -368,29 +360,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div className="container" id="writing">
-        <Link to="#anchor-3">
-        <div className="scroll-cont-2">
-          <div className="outer-cir">
-            <Link to="#skills">
-              <div className="arrow-3"></div>
-              <div className="arrow-4"></div>
-            </Link>
-          </div>
-        </div>
-        </Link>
-        <h1 className="page-title">
-          Writing
-        </h1>
-        <div className="writing-container">
-          <div className="writing-box">
-          <span><Link to="https://www.honeyfeed.fm/u/3211" target="_blank">Prose</Link></span>
-          </div>
-          <div className="writing-box">
-          <span><Link to="https://www.poetbay.com/poetHome.php?writerId=6317" target="_blank">Poetry</Link></span>
-          </div>
-          </div>
-      </div>
+      {/* New div here */}
     </div>
   </Layout>
 )
