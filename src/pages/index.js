@@ -18,6 +18,7 @@ import Image10 from "../components/image10"
 import Image11 from "../components/image11"
 import Image12 from "../components/image12"
 import Image13 from "../components/image13"
+import Image14 from "../components/image14"
 import Skill1 from "../components/Skills/Skill1"
 import Skill2 from "../components/Skills/Skill2"
 import Skill3 from "../components/Skills/Skill3"
@@ -98,7 +99,7 @@ const IndexPage = () => (
         </h1>
         <div className="info">
         <p style={{marginRight: "2em", marginBottom: "1em"}}>
-          I am a <mark>self-taught web developer</mark>, <mark>an aspiring author</mark>, <mark>an amateur web designer</mark>, <mark>an imaginative poet</mark> and a <mark>coding enthusiast</mark>. I am currently a junior at <mark class="uni-blue"><mark class="uni-white"><mark class="uni-red">University of Arizona</mark></mark></mark> and am pursuing my bachelor's degree.  
+          I am a <mark>self-taught web developer</mark>, <mark>an aspiring author</mark>, <mark>an amateur web designer</mark>, <mark>an imaginative poet</mark> and a <mark>coding enthusiast</mark>. I am currently a senior at <mark class="uni-blue"><mark class="uni-white"><mark class="uni-red">University of Arizona</mark></mark></mark> and am pursuing my bachelor's degree.  
         <br></br><br></br>
         
         </p>
@@ -138,6 +139,14 @@ const IndexPage = () => (
           >
             <div className="carousel-box">
               <div className="carousel-img">
+                <Link to="https://www.notion.so/Dhruv-s-UX-Portfolio-5b36dcbe642546a4b25ab1aca9825732" target="_blank">
+                <Image14 />
+                </Link>
+              </div>
+              <span><Link to="https://www.notion.so/Dhruv-s-UX-Portfolio-5b36dcbe642546a4b25ab1aca9825732" target="_blank">Research Portfolio</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
                 <Link to="https://youtu.be/YAl3AzbHPwA" target="_blank">
                 <Image6 />
                 </Link>
@@ -167,6 +176,14 @@ const IndexPage = () => (
                 </Link>
               </div>
               <span><Link to="https://www.figma.com/proto/1v4WIYLaZVomI96YtsiYH9/Untitled?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank">NodeVis (WF)</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+              <Link to="https://github.com/QuodIntrepidus/NodeVis" target="_blank">
+                <Image3 />
+                </Link>
+              </div>
+              <span><Link to="https://github.com/QuodIntrepidus/NodeVis" target="_blank">NodeVis (Git)</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
@@ -200,17 +217,17 @@ const IndexPage = () => (
               </div>
               <span><Link to="https://halocrypt.com/" target="_blank">Halocrypt</Link></span>
             </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
-              <Link to="https://chrome.google.com/webstore/detail/shimasu/aopobbpejbinaakalfongpgajeokeeja?hl=en" target="_blank">
-                <Image2 />
-                </Link>
-              </div>
-              <span><Link to="https://chrome.google.com/webstore/detail/shimasu/aopobbpejbinaakalfongpgajeokeeja?hl=en" target="_blank">Shimasu</Link></span>
-            </div>
           </HorizontalScroll>
         </div>
         <div className="mob-carousel">
+        <div className="carousel-box">
+              <div className="carousel-img">
+                <Link to="https://www.notion.so/Dhruv-s-UX-Portfolio-5b36dcbe642546a4b25ab1aca9825732" target="_blank">
+                <Image14 />
+                </Link>
+              </div>
+              <span><Link to="https://www.notion.so/Dhruv-s-UX-Portfolio-5b36dcbe642546a4b25ab1aca9825732" target="_blank">Research Portfolio</Link></span>
+            </div>
         <div className="carousel-box">
               <div className="carousel-img">
               <Link to="https://youtu.be/YAl3AzbHPwA" target="_blank">
@@ -229,11 +246,27 @@ const IndexPage = () => (
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
-              <Link to="https://www.figma.com/file/LY1iai4Rv32WN8708IIdr1/Fei's-Website-(Copy)?node-id=0%3A1" target="_blank">
-                <Image9 />
+              <Link to="https://www.figma.com/proto/KritlVd8yBhkYUBrdNWnoH/Food-Delivery-App-WireFrame?scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A3&node-id=3%3A3" target="_blank">
+                <Image12 />
                 </Link>
               </div>
-              <span><Link to="https://www.figma.com/file/LY1iai4Rv32WN8708IIdr1/Fei's-Website-(Copy)?node-id=0%3A1" target="_blank">Caladria (Design)</Link></span>
+              <span><Link to="https://www.figma.com/proto/KritlVd8yBhkYUBrdNWnoH/Food-Delivery-App-WireFrame?scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A3&node-id=3%3A3" target="_blank">Delivery App (WF)</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+              <Link to="https://www.figma.com/proto/1v4WIYLaZVomI96YtsiYH9/Untitled?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank">
+                <Image13 />
+                </Link>
+              </div>
+              <span><Link to="https://www.figma.com/proto/1v4WIYLaZVomI96YtsiYH9/Untitled?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank">NodeVis (WF)</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
+              <Link to="https://github.com/QuodIntrepidus/NodeVis" target="_blank">
+                <Image3 />
+                </Link>
+              </div>
+              <span><Link to="https://github.com/QuodIntrepidus/NodeVis" target="_blank">NodeVis (Git)</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
@@ -257,21 +290,13 @@ const IndexPage = () => (
                 <Image9 />
                 </Link>
               </div>
-              <span><Link to="https://www.figma.com/file/LY1iai4Rv32WN8708IIdr1/Fei's-Website-(Copy)?node-id=0%3A1" target="_blank">Caladria</Link></span>
+              <span><Link to="https://www.figma.com/file/LY1iai4Rv32WN8708IIdr1/Fei's-Website-(Copy)?node-id=0%3A1" target="_blank">Caladria (Design)</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
                 <Image4 />
               </div>
               <span><Link to="https://halocrypt.com/" target="_blank">Halocrypt</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
-              <Link to="https://chrome.google.com/webstore/detail/shimasu/aopobbpejbinaakalfongpgajeokeeja?hl=en" target="_blank">
-                <Image2 />
-                </Link>
-              </div>
-              <span><Link to="https://chrome.google.com/webstore/detail/shimasu/aopobbpejbinaakalfongpgajeokeeja?hl=en" target="_blank">Shimasu</Link></span>
             </div>
           </div>
       </div>
