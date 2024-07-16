@@ -61,7 +61,7 @@ const IndexPage = () => (
             className="resp-remove"
             style={{ marginLeft: "3%", fontSize: "1.2rem", color: "black", fontWeight: "bold" }}
           >
-            Coder ▪︎ Web designer ▪ Author︎<br></br>
+            UX ▪︎ Front End ▪ HCI ▪ ML<br></br>
           </p>
         </Fade>
         {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
@@ -99,7 +99,8 @@ const IndexPage = () => (
         </h1>
         <div className="info">
         <p style={{marginRight: "2em", marginBottom: "1em"}}>
-          I am a <mark>self-taught web developer</mark>, <mark>an aspiring author</mark>, <mark>an amateur web designer</mark>, <mark>an imaginative poet</mark> and a <mark>coding enthusiast</mark>. I am currently a senior at <mark class="uni-blue"><mark class="uni-white"><mark class="uni-red">University of Arizona</mark></mark></mark> and am pursuing my bachelor's degree.  
+          I am a Software Engineer at <mark class="staples-red">Staples</mark>, working as <mark>UX Designer</mark>, <mark>Front-End developer</mark> and <mark>ML Engineer</mark>. I graduated from <mark class="uni-blue"><mark class="uni-white"><mark class="uni-red">University of Arizona</mark></mark></mark> in 2024 with a BS in Computer Science and minor in Information, Science, Technology and Arts. I specialize in <mark>UX and User Research</mark>, <mark>Web and Mobile design</mark>, and <mark>Machine Learning</mark>. My dream is to build a self-learning website that evolves its UI for each user. 
+          <br></br>Explore my work and let's connect!
         <br></br><br></br>
         
         </p>
@@ -155,6 +156,14 @@ const IndexPage = () => (
             </div>
             <div className="carousel-box">
               <div className="carousel-img">
+              <Link to="https://nodevis.netlify.app/" target="_blank">
+                <Image3 />
+                </Link>
+              </div>
+              <span><Link to="https://nodevis.netlify.app/" target="_blank">NodeVis</Link></span>
+            </div>
+            <div className="carousel-box">
+              <div className="carousel-img">
               <Link to="https://jennerus.netlify.app/" target="_blank">
                 <Image8 />
                 </Link>
@@ -168,22 +177,6 @@ const IndexPage = () => (
                 </Link>
               </div>
               <span><Link to="https://www.figma.com/proto/KritlVd8yBhkYUBrdNWnoH/Food-Delivery-App-WireFrame?scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A3&node-id=3%3A3" target="_blank">Delivery App (WF)</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
-              <Link to="https://www.figma.com/proto/1v4WIYLaZVomI96YtsiYH9/Untitled?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank">
-                <Image13 />
-                </Link>
-              </div>
-              <span><Link to="https://www.figma.com/proto/1v4WIYLaZVomI96YtsiYH9/Untitled?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank">NodeVis (WF)</Link></span>
-            </div>
-            <div className="carousel-box">
-              <div className="carousel-img">
-              <Link to="https://github.com/QuodIntrepidus/NodeVis" target="_blank">
-                <Image3 />
-                </Link>
-              </div>
-              <span><Link to="https://github.com/QuodIntrepidus/NodeVis" target="_blank">NodeVis (Git)</Link></span>
             </div>
             <div className="carousel-box">
               <div className="carousel-img">

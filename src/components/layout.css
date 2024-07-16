@@ -786,6 +786,15 @@ mark:hover {
   background: rgb(201, 61, 37);
   padding: 0.5px;
 }
+.staples-red {
+  background: rgba(255, 255, 255, 0);
+  transition: 0.4s ease;
+  text-decoration: underline;
+}
+.staples-red:hover {
+  background: rgb(201, 61, 37);
+  padding: 0.5px;
+}
 .uni-blue {
   background: rgba(255, 255, 255, 0);
   color: rgb(221, 221, 221);
@@ -795,7 +804,7 @@ mark:hover {
 
 .uni-blue:hover {
   background: rgb(0, 12, 122);
-  padding: 4px;
+  padding: 2px;
 }
 .uni-white {
   background: rgba(255, 255, 255, 0);
@@ -805,7 +814,7 @@ mark:hover {
 
 .uni-white:hover {
   background: rgb(255, 255, 255);
-  padding: 2px;
+  padding: 1px;
 }
 .uni-red {
   background: rgba(255, 255, 255, 0);
